@@ -3,7 +3,7 @@
   import { browser } from '$app/environment';
   import Icon from "@iconify/svelte";
 	// import ShareButton from './ProductpageComponents/ShareButton.svelte';
-import Contact from '$lib/components/Contactus_Final/Registerweb.svelte';
+import Contact from '$lib/components/contactus_final/Registerweb.svelte';
   
   export let data;
   console.log("newsroom data--->>",data)
