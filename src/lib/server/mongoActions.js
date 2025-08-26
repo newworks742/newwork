@@ -1,6 +1,6 @@
 import Events from '$lib/server/models/Events.js';
 import Contactus from '$lib/server/models/Contact.js';
-import Products from '$lib/server/models/component.js'
+import Products from '$lib/server/models/Component.js'
 import Partners from '$lib/server/models/Partners';
 export const contactUs = async (body) => {
   console.log(body, "body");

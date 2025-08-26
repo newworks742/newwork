@@ -1,6 +1,6 @@
 import Contactus from '$lib/server/models/Contact.js';
 import Events from '$lib/server/models/Events.js';
-import Products from '$lib/server/models/component.js'
+import Products from '$lib/server/models/Component.js'
 import Partners from '$lib/server/models/Partners';
 export async function fetchContacts(currentPage, search, filter) {
   if (!filter) {
