@@ -1,12 +1,11 @@
 <script>
 	import Icon from '@iconify/svelte';
-	import { PUBLIC_COMPBUY_IMAGE_PATH } from '$env/static/public';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { browser } from '$app/environment';
 	
 	export let data;
-
+let PUBLIC_COMPBUY_IMAGE_PATH = "Digitoad"
 	let records = [];
 	let totalCount = 0;
 	let filteredRecords = [];

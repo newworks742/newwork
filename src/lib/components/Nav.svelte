@@ -4,7 +4,6 @@
 	import { goto } from '$app/navigation';
 	import Icon from '@iconify/svelte';
 	import menusdata from '$lib/data/Navbar/menus.json';
-	import { PUBLIC_WEBSITE_NAME } from '$env/static/public';
 	import { toast, Toaster } from 'svelte-sonner';
 	// let username = $authedUser?.username;
 	let menus = [];
@@ -90,7 +89,7 @@
 						}}
 						class="text-xl lg:text-3xl py-2 font-roboto font-bold md:mb-0 text-white"
 					>
-						{PUBLIC_WEBSITE_NAME}
+						Digitoad Technologis
 					</button>
 					<button on:click={toggleLogoMenu} class="text-2xl py-2 hover:text-primary-400">
 						<Icon icon="mdi:close" class="size-6" />

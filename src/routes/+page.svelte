@@ -3,7 +3,7 @@
   // import TopPubs from "$lib/components/Home/TopPubs.svelte";
   import HeroSec from "$lib/components/Herosection_updated.svelte";
 import Section2 from "$lib/components/section2.svelte";
-import Section3 from "$lib/components/section3.svelte";
+import Section3 from "$lib/components/Section3.svelte";
 import Section4 from "$lib/components/section4.svelte";
   export let data;
   console.log(data,"ia m from +page");

@@ -4,11 +4,10 @@
   import { enhance, applyAction } from '$app/forms';
   import { goto } from '$app/navigation';
   import { Toaster, toast } from "svelte-sonner";
-  import { PUBLIC_COMPBUY_IMAGE_PATH } from '$env/static/public';
   import Icon from "@iconify/svelte";
   	// import { sendMessage } from "$lib/utils.js";
 
-
+let PUBLIC_COMPBUY_IMAGE_PATH = "Digitoad"
   let selectedwebsite = "Digitoad";
   let open = false;
   	let recorded = [];

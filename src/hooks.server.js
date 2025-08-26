@@ -1,15 +1,11 @@
 /* eslint-disable no-unused-vars */
 
   import mongoose from "mongoose";
-//   import { auth } from '$lib/server/lucia.js';
   import { sequence } from '@sveltejs/kit/hooks';
-// in +page.server.js
-// import crypto from 'crypto';
 
   let isConnected = false;
   const MONGODB_URI =`mongodb+srv://bhavana:kkt13TqY5QYiTgPe@cluster0.2pqyzxs.mongodb.net/`
-  // const MONGODB_URI = `mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOST}:${MONGO_PORT}/${MONGO_DATABASE}?authSource=${MONGO_USERNAME}`;
-//   console.log("MONGODB_URI",MONGODB_URI);
+
   
   export const main = async ({ event, resolve }) => {
     if (!isConnected) {

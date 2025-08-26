@@ -2,7 +2,6 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	import Icon from '@iconify/svelte';
-	//   let selectedwebsite = "Digitoad";
 
 	export let data;
 	console.log(data, 'contactdata');

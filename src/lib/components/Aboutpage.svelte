@@ -1,6 +1,5 @@
 <script>
 	import Icon from '@iconify/svelte';
-	import { PUBLIC_WEBSITE_NAME } from '$env/static/public';
 	import Oem from './Oem.svelte';
 </script>
 
@@ -12,7 +11,7 @@
 		<div class="flex flex-col-reverse lg:flex-row items-center gap-8">
 			<div class="w-full lg:w-1/2 space-y-4 text-sm sm:text-base text-justify">
 				<p>
-					<strong>{PUBLIC_WEBSITE_NAME} Technologies</strong> is a leading provider of Industrial, Academic, and Research Solutions, specializing in Test & Measurement, Industrial Automation, 5G/6G Wireless Technology, and AI-driven IoT solutions. Established in 2018, we empower industries, academia, and research institutions through cutting-edge technologies, expert-driven training, and innovative system integration.
+					<strong>Digitoad Technologies</strong> is a leading provider of Industrial, Academic, and Research Solutions, specializing in Test & Measurement, Industrial Automation, 5G/6G Wireless Technology, and AI-driven IoT solutions. Established in 2018, we empower industries, academia, and research institutions through cutting-edge technologies, expert-driven training, and innovative system integration.
 				</p>
 				<p>
 					As a trusted partner in Distribution, System Integration, Training & Skills Development, and E-Learning Services, we bridge the gap between emerging technologies and real-world applications. Our collaborations with global technology leaders enable us to deliver state-of-the-art solutions that accelerate innovation and digital transformation.

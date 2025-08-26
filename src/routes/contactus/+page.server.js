@@ -1,10 +1,10 @@
 import { contactUs } from "$lib/server/mongoActions.js";
-// import Pub from "$lib/server/models/Pub.js";
+// import Data from "$lib/server/models/Data.js";
 // import Profile from '$lib/server/models/Profile.js';
 // import TokenVerification from '../../lib/server/models/TokenVerification';
 // import { verifyemailOtp, sendemailOtp } from '$lib/server/mongoActions.js';
 // import { APP_URL } from '$env/static/private';
-// import { PUBLIC_WEBSITE_NAME } from '$env/static/public';
+// import { Digitoad } from '$env/static/public';
 // import sendemail from '$lib/data/sendemail.json';
 // import { sendNotificationEmail, sendEmailToUser } from '$lib/server/emailNotification.js';
 // import { sanitizeFormData } from '$lib/utils/sanitize.js';
@@ -25,7 +25,7 @@ export const actions = {
       // const updatedBodyWithIP = { ...body, ipAddress };
 
       // let emailContent = sendemail.emailTemplatecontact
-      //   .replaceAll('{{PUBLIC_WEBSITE_NAME}}', PUBLIC_WEBSITE_NAME)
+      //   .replaceAll('{{Digitoad}}', Digitoad)
       //   .replaceAll('{{APP_URL}}', APP_URL)
       //   .replaceAll('{{name}}', body?.name || '')
       //   .replaceAll('{{email}}', body.email || '')
@@ -36,7 +36,7 @@ export const actions = {
       //   .replaceAll('{{ipAddress}}', ipAddress);
       // try {
       //   await sendNotificationEmail(
-      //     `New Contact Inquiry – ${PUBLIC_WEBSITE_NAME}`,
+      //     `New Contact Inquiry – ${Digitoad}`,
       //     emailContent
       //   );
       // } catch (error) {
@@ -44,7 +44,7 @@ export const actions = {
       // }
 
       // let userEmailContent = sendemail.emailTemplatecontactuser
-      //   .replaceAll('{{PUBLIC_WEBSITE_NAME}}', PUBLIC_WEBSITE_NAME)
+      //   .replaceAll('{{Digitoad}}', Digitoad)
       //   .replaceAll('{{APP_URL}}', APP_URL)
       //   .replaceAll('{{name}}', body.name || '')
       //   .replaceAll('{{email}}', body.email || '')
@@ -55,7 +55,7 @@ export const actions = {
 
       // try {
       //   await sendEmailToUser(
-      //     `Your Contact Inquiry Confirmation - ${PUBLIC_WEBSITE_NAME}`,
+      //     `Your Contact Inquiry Confirmation - ${Digitoad}`,
       //     userEmailContent,
       //     body.email
       //   );

@@ -1,5 +1,4 @@
 <script>
-  import { PUBLIC_COMPBUY_IMAGE_PATH, PUBLIC_WEBSITE_URL } from '$env/static/public';
   import { onMount, onDestroy } from 'svelte';
   import { browser } from '$app/environment';
   import Icon from "@iconify/svelte";
@@ -10,7 +9,7 @@ import Contact from '$lib/components/Contactus_Final/Registerweb.svelte';
   console.log("newsroom data--->>",data)
     let showContact = false;
   $: record = data?.newsdata;
-
+let PUBLIC_COMPBUY_IMAGE_PATH = "Digitoad"
   let isExpanded = false;
   let shouldShowToggle = false;
   let processedContent = '';
