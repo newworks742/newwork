@@ -10,21 +10,21 @@ return {
 	assets: new Set(["aboutpages.png","banner5.png","banner6.png","bgvideo.mp4","bgvideo1.mp4","carousel/1.png","carousel/10.png","carousel/11.png","carousel/12.png","carousel/13.png","carousel/14.png","carousel/15.png","carousel/16.png","carousel/17.png","carousel/18.png","carousel/19.png","carousel/2.png","carousel/20.png","carousel/21.png","carousel/22.png","carousel/23.png","carousel/24.png","carousel/3.png","carousel/4.png","carousel/5.png","carousel/6.png","carousel/7.png","carousel/8.png","carousel/9.png","carousel/ATHER.png","carousel/DNLV.png","carousel/em.png","carousel/ISRO.png","carousel/JBGVS.png","carousel/jucom Aerospace.png","carousel/Meslova.png","carousel/River.png","carousel/Untitled design.png","carousel/VVDN.png","DT.png","fb.png","hero1.png","hero2.png","hero3.png","hero4.png","hero5.png","hero6.png","hero7.png","hero8.png","insta.png","linkedin.png","logo.png","oem/crobot technologies.png","oem/Digilent.png","oem/Mantiswave.png","oem/NI.png","oem/ST.png","oem/Tmytek.png","oem/Viavi.png","partner.png","product.png","robots.txt","Technology_Data_Visualization.mp4","unknown.png","unnamed.jpg","vission AI.mp4","Visualization.mp4"]),
 	mimeTypes: {".png":"image/png",".mp4":"video/mp4",".txt":"text/plain",".jpg":"image/jpeg"},
 	_: {
-		client: {start:"_app/immutable/entry/start.V3sPUl3q.js",app:"_app/immutable/entry/app.Nr7Js0Vw.js",imports:["_app/immutable/entry/start.V3sPUl3q.js","_app/immutable/chunks/B5PH7vek.js","_app/immutable/chunks/1w2tVRpE.js","_app/immutable/entry/app.Nr7Js0Vw.js","_app/immutable/chunks/C1FmrZbK.js","_app/immutable/chunks/1w2tVRpE.js","_app/immutable/chunks/IHki7fMi.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.Pqt8tyWd.js",app:"_app/immutable/entry/app.B7xMqa4f.js",imports:["_app/immutable/entry/start.Pqt8tyWd.js","_app/immutable/chunks/CsqAPviS.js","_app/immutable/chunks/1w2tVRpE.js","_app/immutable/entry/app.B7xMqa4f.js","_app/immutable/chunks/C1FmrZbK.js","_app/immutable/chunks/1w2tVRpE.js","_app/immutable/chunks/IHki7fMi.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
-			__memo(() => import('./chunks/0-DP-wqAK8.js')),
-			__memo(() => import('./chunks/1-CsGT0Hj9.js')),
-			__memo(() => import('./chunks/2-Vn3lkjFI.js')),
-			__memo(() => import('./chunks/3-D9n4Cyks.js')),
-			__memo(() => import('./chunks/4-BGaXQf3W.js')),
-			__memo(() => import('./chunks/5-DAJXh4gb.js')),
-			__memo(() => import('./chunks/6-RoZ4-i1K.js')),
-			__memo(() => import('./chunks/7-BC7wlXH-.js')),
-			__memo(() => import('./chunks/8-DgkVRVGo.js')),
-			__memo(() => import('./chunks/9-ByZ5GtrK.js')),
-			__memo(() => import('./chunks/10-BCt2C4QP.js')),
-			__memo(() => import('./chunks/11-rf-jz0p-.js')),
-			__memo(() => import('./chunks/12-kjizO4ST.js'))
+			__memo(() => import('./chunks/0-Dn3bBMFz.js')),
+			__memo(() => import('./chunks/1-CPxbMirj.js')),
+			__memo(() => import('./chunks/2-Ca08aGD9.js')),
+			__memo(() => import('./chunks/3-Ck_QnChf.js')),
+			__memo(() => import('./chunks/4-CpY0dEI1.js')),
+			__memo(() => import('./chunks/5-DHQOc7RU.js')),
+			__memo(() => import('./chunks/6-ClcqTsDN.js')),
+			__memo(() => import('./chunks/7-DPqurkpX.js')),
+			__memo(() => import('./chunks/8-9jOU5ijn.js')),
+			__memo(() => import('./chunks/9-MM9nqPWL.js')),
+			__memo(() => import('./chunks/10-CTOOk6cf.js')),
+			__memo(() => import('./chunks/11-BejsbzQJ.js')),
+			__memo(() => import('./chunks/12-kuZyFPD2.js'))
 		],
 		remotes: {
 			

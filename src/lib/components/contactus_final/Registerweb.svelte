@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 	import { enhance } from '$app/forms';
 	import Icon from '@iconify/svelte';
-	import { countries, phoneNumberPatterns } from '$lib/Data/constants.js';
+	import { countries, phoneNumberPatterns } from '$lib/data/constants.js';
 	export let data;
 
 	let showSuccesDiv = false;
