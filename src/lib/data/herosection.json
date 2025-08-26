@@ -1,0 +1,93 @@
+{
+  "heroSliderData": [
+    {
+      "id": 1,
+      "video": "/vission AI.mp4",
+      "image": "/hero1.png",
+      "content": {
+        "title": "Mantis Private 5G Network-in-a-Box: Protable,Powerful, and Ready for the Future",
+        "subtitle": "Portable, Powerful, and Ready for the Future",
+        "description": "Revolutionary portable 5G network solutions that deliver enterprise-grade connectivity anywhere you need it."
+      }
+    },
+    
+    {
+      "id": 2,
+      "video": "/bgvideo.mp4",
+      "image": "/hero2.png",
+      "content": {
+        "title": "Innovative Test and Measurement Solutions for the Next Generation Engineers",
+        "subtitle": "Next Generation Engineering",
+        "description": "Advanced testing and measurement solutions designed for the next generation of engineers and researchers."
+      }
+    },
+    {
+      "id": 3,
+      "video": "/vission AI.mp4",
+      "image": "/hero3.png",
+      "content": {
+        "title": "Unlock the power of Logic, Learning, and prototyping with  Versatile FPGA Boards.",
+        "subtitle": "Logic, Learning, and Prototyping",
+        "description": "Unlock the power of Logic, Learning, and prototyping with  Versatile FPGA Boards."
+      }
+    },
+    {
+      "id": 4,
+      "video": "/bgvideo.mp4",
+      "image": "/hero4.png",
+      "content": {
+        "title": "Transforming Research, Testing, and Automation with scalable NI solutions.",
+        "subtitle": "Research, Testing, and Automation",
+        "description": "Transforming Research, Testing, and Automation with scalable NI solutions."
+      }
+    },
+    {
+      "id": 5,
+      "video": "/vission AI.mp4",
+      "image": "/hero5.png",
+      "content": {
+        "title": "Edge AI & IoT Developer Kit and Industrial IoT Nodes for accelerated Learning, Research, and Industrial Innovation",
+        "subtitle": "Accelerated Innovation",
+        "description": "Industrial IoT nodes designed for accelerated learning, research, and breakthrough industrial innovation."
+      }
+    },
+    {
+      "id": 6,
+      "video": "/bgvideo.mp4",
+      "image": "/hero6.png",
+      "content": {
+        "title": "5G mmWave Developer Kit for Academic and R&D",
+        "subtitle": "Academic and R&D Excellence",
+        "description": "Professional-grade 5G mmWave development tools specifically designed for academic and R&D applications."
+      }
+    },
+    {
+      "id": 7,
+      "video": "/vission AI.mp4",
+      "image": "/hero7.png",
+      "content": {
+        "title": "Embedded Vision AI Developer Kit for accelerated Learning, Research,and Industrial Innovation",
+        "subtitle": "Accelerated AI Development",
+        "description": "Complete embedded vision AI solutions for accelerated learning, research, and industrial innovation."
+      }
+    },
+    {
+      "id": 8,
+      "video": "/bgvideo.mp4",
+      "image": "/hero8.png",
+      "content": {
+        "title": "Tulip Robotics:AI Driven Autonomous Mobile Robotics System Labs",
+        "subtitle": "AI Driven Autonomous Systems",
+        "description": "Unlock the future of AI, vision, and autonomous mobility with our advanced platform."
+      }
+    }
+  ],
+  "sliderSettings": {
+    "autoplay": true,
+    "autoplaySpeed": 5000,
+    "dots": true,
+    "arrows": true,
+    "fade": true,
+    "infinite": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+	"menus": [
+		{
+			"title": "Events",
+			"href": "/events"
+		},
+		{
+			"title": "Solutions",
+			"href": "/solutions"
+			
+		},
+		{
+			"title": "Academics",
+			"href": "/academics"
+			
+		},
+		{
+			"title": "About Us",
+			"href": "/about"
+		},
+		{
+			"title": "Contact Us",
+			"href": "/contactus"
+		}
+	]
+}
