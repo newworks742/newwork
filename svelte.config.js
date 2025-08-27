@@ -24,9 +24,9 @@
 
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { preprocessMeltUI, sequence } from '@melt-ui/pp';
-// import adapter from '@sveltejs/adapter-netlify'; // 👈 use Netlify adapter
+import adapter from '@sveltejs/adapter-netlify'; // 👈 use Netlify adapter
 // import adapter from '@sveltejs/adapter-node';
-import adapter from '@sveltejs/adapter-vercel';
+// import adapter from '@sveltejs/adapter-vercel';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
