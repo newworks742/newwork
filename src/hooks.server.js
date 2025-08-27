@@ -67,7 +67,6 @@
 
 
 
-/* eslint-disable no-unused-vars */
 import mongoose from "mongoose";
 import { sequence } from '@sveltejs/kit/hooks';
 import { MONGODB_URI } from '$env/static/private';
